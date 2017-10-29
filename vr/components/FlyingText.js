@@ -1,4 +1,4 @@
-import { React, PropTypes } from "react";
+import React, { PropTypes } from "react";
 import { Animated } from "react-vr";
 
 class FlyingText extends React.Component {
@@ -32,7 +32,7 @@ class FlyingText extends React.Component {
           transform: [{ translateZ: this.state.flyingTextZ }]
         }}
       >
-        PDXNode Hack night!
+        Welcome to the Karaoke Experience!
       </Animated.Text>
     );
   }
