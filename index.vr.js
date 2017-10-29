@@ -1,23 +1,12 @@
 import React from 'react';
 import { AppRegistry, asset, Pano, Text, View } from 'react-vr';
 
+import FlyingText from './vr/components/FlyingText';
+
 const NodePDX = () => (
   <View>
     <Pano source={asset('chess-world.jpg')} />
-    <Text
-      style={{
-        backgroundColor: '#777879',
-        fontSize: 0.4,
-        layoutOrigin: [0.5, 0.5],
-        paddingLeft: 0.2,
-        paddingRight: 0.2,
-        textAlign: 'center',
-        textAlignVertical: 'center',
-        transform: [{ translate: [0, 0, -3] }],
-      }}
-    >
-      PDXNode Hack night!
-    </Text>
+    <FlyingText startingZ={-100} endingZ={-5} />
     <View
       style={{
         flex: 1,
