@@ -1,0 +1,6 @@
+{
+  // Place your settings in this file to overwrite default and user settings.
+  "editor.formatOnSave": true, // THIS WILL TRIGGER PRETTIER ON SAVE,
+  "javascript.format.enable": false,
+  "prettier.eslintIntegration": true // THIS WILL MAKE IT COMMUNICATE WITH ESLINT
+}
